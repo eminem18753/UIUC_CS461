@@ -1,0 +1,1 @@
+we went to /vol_vol9/home/whlt3r0s3/ and found .bash_history, we then check all the command and list the tools installed and used in chronical order.

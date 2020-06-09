@@ -1,0 +1,1 @@
+We boot the image file and found that there are a lines of words "searching for puppy files in computer disk drives", so we are sure that the default booting OS is puppy linux

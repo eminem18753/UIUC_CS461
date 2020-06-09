@@ -1,0 +1,1 @@
+When we booted the system, we found that it is loading a personal file named "pupsave.2fs". We can find the file in vol2 (Linux) /puppy431, the name of which is pupsave.2fs.

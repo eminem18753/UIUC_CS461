@@ -1,0 +1,1 @@
+We install the VDI on the virtual machine, and see the login user name.

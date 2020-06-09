@@ -1,0 +1,38 @@
+grade report for yufanff2
+
+2.2.1 SQL INJECTION
+grade for 2.2.1.1: 5/5
+comment for 2.2.1.1: Success
+grade for 2.2.1.2: 5/5
+comment for 2.2.1.2: Success
+grade for 2.2.1.3: 10/10
+comment for 2.2.1.3: Success
+grade for 2.2.1.4: 9/10
+comment for 2.2.1.4: database name incorrect; server version incorrect; table name incorrect; secret string incorrect for yufanff2
+TOTAL: 29.0/30
+
+2.2.2 CSRF
+grade for 2.2.2.1: 10/10
+comment for 2.2.2.1: 
+grade for 2.2.2.2: 0/10
+comment for 2.2.2.2: CSRF page redirected to another page
+TOTAL: 10.0/20
+
+2.2.3 XSS
+grade for 2.2.3.1: 4.5/5
+comment for 2.2.3.1: never stops loading
+submission of 2.2.3.2_payload.html: 4/4
+comment for 2.2.3.2_payload.html: 
+grade for 2.2.3.2: 21/21
+comment for 2.2.3.2: 
+grade for 2.2.3.3: 5.0/5
+comment for 2.2.3.3: 
+grade for 2.2.3.4: 5.0/5
+comment for 2.2.3.4: 
+grade for 2.2.3.5: 5.0/5
+comment for 2.2.3.5: 
+grade for 2.2.3.6: 5.0/5
+comment for 2.2.3.6: 
+TOTAL: 49.5/50
+
+TOTAL: 88.5/100

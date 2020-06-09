@@ -1,0 +1,152 @@
+From - Wed Nov 11 00:04:38 2015
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: wh1t3.r0s3.0401@gmail.com
+Received: by 10.60.60.130 with SMTP id h2csp16364oer;
+        Wed, 4 Nov 2015 10:22:44 -0800 (PST)
+X-Received: by 10.140.38.114 with SMTP id s105mr3118236qgs.45.1446661364040;
+        Wed, 04 Nov 2015 10:22:44 -0800 (PST)
+Return-Path: <illini.pony.express@gmail.com>
+Received: from mail-qg0-x231.google.com (mail-qg0-x231.google.com. [2607:f8b0:400d:c04::231])
+        by mx.google.com with ESMTPS id y46si1101591qgd.62.2015.11.04.10.22.43
+        for <wh1t3.r0s3.0401@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Nov 2015 10:22:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of illini.pony.express@gmail.com designates 2607:f8b0:400d:c04::231 as permitted sender) client-ip=2607:f8b0:400d:c04::231;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of illini.pony.express@gmail.com designates 2607:f8b0:400d:c04::231 as permitted sender) smtp.mailfrom=illini.pony.express@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-x231.google.com with SMTP id d10so43181298qga.3
+        for <wh1t3.r0s3.0401@gmail.com>; Wed, 04 Nov 2015 10:22:43 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=SL39kZHxGL3XAg+68md2hxkdL3q9wvGn8Bqfjj2cu9o=;
+        b=g9qb6lF4I3uUSdHkCswwDlyLjZbQ63yf/fvymaei3oQxIbqD1JV2vbVzOnth00cc0W
+         QKrOaNUUmBxBMJkHvli8Esp8821+jG3S4LG/QsriXUiJlLNJSP94+PGS+rtymrlY9LSZ
+         u8qyTaLqWW4pR8CJ4eoMc5eJRtfIP7/5z2h9DkEHaIGQtV67OdcasLDLmEtDhCS0mgwu
+         6bOBiA/IYwMzkLkUmbXpL1MTKZZk0dFndWReTSneDJjh4LlJX88CbB+teVNPIo8EMH+h
+         s5cV8QVrQboywBaJki6n6rS+uUzFkCK/zA2r9w10TiCy9A2W5QezGg06qZ58H25oJN1u
+         6/og==
+MIME-Version: 1.0
+X-Received: by 10.140.36.244 with SMTP id p107mr3100316qgp.37.1446661363771;
+ Wed, 04 Nov 2015 10:22:43 -0800 (PST)
+Received: by 10.55.114.67 with HTTP; Wed, 4 Nov 2015 10:22:43 -0800 (PST)
+In-Reply-To: <5639E38C.404@gmail.com>
+References: <5639E38C.404@gmail.com>
+Date: Wed, 4 Nov 2015 12:22:43 -0600
+Message-ID: <CADss0br7ePWvM78ND+WJLZiUOQJHivUG6vGv6OeSEKWbxGZ74A@mail.gmail.com>
+Subject: Re: Need bus ticket
+From: Pony Express Illini <illini.pony.express@gmail.com>
+To: White Rose <wh1t3.r0s3.0401@gmail.com>
+Content-Type: multipart/alternative; boundary=001a11c13622b2c7290523bb18ef
+
+--001a11c13622b2c7290523bb18ef
+Content-Type: text/plain; charset=UTF-8
+
+Thank you White Rose for choosing to ride with Illini Pony Express. You
+have successfully purchased your ticket(s):
+____________________________________________________________
+__________________________________________________________
+
+Your Ticket Number: FFFFFF
+Trip Number: CU-9000
+Traveling on: Wed 04-Nov-2015
+Number of luggage: Unlimited
+Destination: O'hare Bus Shuttle Center
+Departing: 10:00 pm
+Purchase Total: $15.00
+____________________________________________________________
+__________________________________________________________
+
+
+Click the below Link to retrieve your Boarding Pass
+
+https://goo.gl/6eIjx1
+
+If you have any questions about your upcoming trip, please feel free to
+email us.
+Please be sure your ticket is either with you or viewable on a mobile
+device and the bar code unobstructed so
+that the driver can scan it when boarding if needed.
+
+We appreciate your business!
+
+
+Regards,
+Illini Pony Express
+
+On Wed, Nov 4, 2015 at 4:53 AM, White Rose <wh1t3.r0s3.0401@gmail.com>
+wrote:
+
+> Hi Illini Pony Express,
+>
+> I purchased the ticket a few hours ago; however, I did not receive my
+> ticket yet.
+> Could you please send it as soon as possible? I really need to leave the
+> town by tonight.
+> The ticket number was FFFFFF.
+> Thank you.
+>
+> White Rose
+>
+
+--001a11c13622b2c7290523bb18ef
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-size:12.8px">Thank you White Rose for =
+choosing to ride with Illini Pony Express</span><span style=3D"font-size:12=
+.8px">. You have successfully purchased your ticket(s):</span><br style=3D"=
+font-size:12.8px"><span style=3D"font-size:12.8px">________________________=
+______</span><span style=3D"font-size:12.8px">_____________________________=
+_</span><span style=3D"font-size:12.8px">______________________________</sp=
+an><span style=3D"font-size:12.8px">____________________________</span><br =
+style=3D"font-size:12.8px"><br style=3D"font-size:12.8px"><span style=3D"fo=
+nt-size:12.8px">Your Ticket Number: FFFFFF</span><br style=3D"font-size:12.=
+8px"><span style=3D"font-size:12.8px">Trip Number: CU-9000</span><br style=
+=3D"font-size:12.8px"><span style=3D"font-size:12.8px">Traveling on: Wed 04=
+-Nov-2015</span><br style=3D"font-size:12.8px"><span style=3D"font-size:12.=
+8px">Number of luggage: Unlimited</span><br style=3D"font-size:12.8px"><spa=
+n style=3D"font-size:12.8px">Destination: O&#39;hare Bus Shuttle Center</sp=
+an><div>Departing: 10:00 pm<br style=3D"font-size:12.8px"><span style=3D"fo=
+nt-size:12.8px">Purchase Total: $15.00</span><br style=3D"font-size:12.8px"=
+><span style=3D"font-size:12.8px">______________________________</span><spa=
+n style=3D"font-size:12.8px">______________________________</span><span sty=
+le=3D"font-size:12.8px">______________________________</span><span style=3D=
+"font-size:12.8px">____________________________</span><br style=3D"font-siz=
+e:12.8px"><br style=3D"font-size:12.8px"><br style=3D"font-size:12.8px"><sp=
+an style=3D"font-size:12.8px">Click the below Link to retrieve your Boardin=
+g Pass</span><br style=3D"font-size:12.8px"><br style=3D"font-size:12.8px">=
+<a href=3D"https://goo.gl/6eIjx1" target=3D"_blank" style=3D"font-size:12.8=
+px">https://goo.gl/6eIjx1</a></div><div><br></div><div><span style=3D"font-=
+size:12.8px">If you have any questions about your upcoming trip, please fee=
+l free to email us.</span><br style=3D"font-size:12.8px"><span style=3D"fon=
+t-size:12.8px">Please be sure your ticket is either with you or viewable on=
+ a mobile device and the bar code unobstructed so</span><br style=3D"font-s=
+ize:12.8px"><span style=3D"font-size:12.8px">that the driver can scan it wh=
+en boarding if needed.</span><br style=3D"font-size:12.8px"><br style=3D"fo=
+nt-size:12.8px"><span style=3D"font-size:12.8px">We appreciate your busines=
+s!</span><br style=3D"font-size:12.8px"><br style=3D"font-size:12.8px"><br =
+style=3D"font-size:12.8px"><span style=3D"font-size:12.8px">Regards,</span>=
+<br style=3D"font-size:12.8px"><span style=3D"font-size:12.8px">Illini Pony=
+ Express</span></div></div><div class=3D"gmail_extra"><br><div class=3D"gma=
+il_quote">On Wed, Nov 4, 2015 at 4:53 AM, White Rose <span dir=3D"ltr">&lt;=
+<a href=3D"mailto:wh1t3.r0s3.0401@gmail.com" target=3D"_blank">wh1t3.r0s3.0=
+401@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" st=
+yle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Hi Il=
+lini Pony Express,<br>
+<br>
+I purchased the ticket a few hours ago; however, I did not receive my ticke=
+t yet.<br>
+Could you please send it as soon as possible? I really need to leave the to=
+wn by tonight.<br>
+The ticket number was FFFFFF.<br>
+Thank you.<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+<br>
+White Rose<br>
+</font></span></blockquote></div><br></div>
+
+--001a11c13622b2c7290523bb18ef--

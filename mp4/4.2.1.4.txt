@@ -1,0 +1,8 @@
+ftp
+ssh
+https
+dhcps
+ntp
+http
+netbios-ns
+netbios-dgm

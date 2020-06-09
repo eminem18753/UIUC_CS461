@@ -1,0 +1,5 @@
+1.
+We went to /vol_vol9/home/sh1t3r0s3/Desktop and found that "toxic waste 1.7 oz.jpg" and "evilplan.doc" are deleted, and we thought that "toxic waste 1.7 oz.jpg" is more important. We then downloaded "photorec.exe" and recover all the files with "jpg" or "doc" extensions. We found the original "toxic waste 1.7 oz.jpg" file
+2.
+Another way is to simply see from the browser history to make sure that the suspect has deleted the "toxic waste 1.7 oz.jpg" and "evilplan.doc" files. We can then went to Web History and found the URL:http://www.marthasbackyard.co.nz/images/toxic%20waste%201.7%20oz.jpg. The URL also gave us the "toxic waste 1.7 oz.jpg" file.
+We thought that "toxic waste 1.7 oz.jpg" is the wanted file. What's more, we can't recover the "evilplan.doc" file.

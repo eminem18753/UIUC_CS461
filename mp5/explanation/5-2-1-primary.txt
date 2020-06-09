@@ -1,0 +1,1 @@
+We found the "issue" file in vol9(Linux) in /etc, and found that the version for the primary operating system is ubuntu 14.04.3

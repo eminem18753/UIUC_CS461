@@ -1,0 +1,1 @@
+We find that there is a program named pidgin at home, and we found that the chat log file is stored in .purple folder.

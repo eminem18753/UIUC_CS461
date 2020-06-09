@@ -1,0 +1,4 @@
+1.succesfully login:
+We found the lastlog file on the victim's machine (ladiesman461) and verifies that it has been logined by the ip address of 10.46.1.105 and 10.46.1.106. And the addresses are belong to the suspect's machine (whlt3r0s3). So we know that the suspect has successfully logged in.
+2.key file name:
+We found the "known_hosts" file in vol_vol9/home/wh1t3r0s3/.ssh, and got that the encrption algorithm is Elliptic Curve Digital Signature Algorithm (ecdsa-sha2-nistp256). So the private key file name should be ssh_host_ecdsa_key, and the public key file name should be ssh_host_ecdsa_key.pub. The key file name can be found in kali linux in the /etc/ssh.
